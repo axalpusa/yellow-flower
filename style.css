@@ -384,7 +384,7 @@ h1{
       /*  max-height: none; /* Eliminar la altura máxima para que sea variable */
       /*  position: relative; /* Cambiar la posición a relativa para que siga el flujo del documento */
       /*  margin-bottom: 100%; /* Centrar horizontalmente y agregar margen inferior */
-      margin-top: 0px; /* Centrar horizontalmente y agregar margen inferior */
+      margin-top: 50px; /* Centrar horizontalmente y agregar margen inferior */
     }
     h1{
         color: black;
