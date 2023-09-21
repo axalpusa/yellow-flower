@@ -16,7 +16,7 @@ body{
     background-image: var(--color-bg);
     min-height: 100vh;
     display: flex;
-    align-items: flex-end;
+   /* align-items: flex-end;*/
     justify-content: center;
     overflow: hidden;
 }
@@ -344,7 +344,7 @@ p{
     max-height: 70%;
     max-width: 100%;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
    /* margin-left: -60%;*/
     background-color: #fff; /* Color del fondo de la carta */
     border-radius: 10px; /* Bordes redondeados para simular una carta */
@@ -381,9 +381,10 @@ h1{
 @media (max-width: 758px) {
     .carta {
         max-width: 100%; /* Cambiar el ancho máximo para que ocupe todo el ancho */
-        max-height: none; /* Eliminar la altura máxima para que sea variable */
-        position: relative; /* Cambiar la posición a relativa para que siga el flujo del documento */
-        margin: 0 20px 450px 20px; /* Centrar horizontalmente y agregar margen inferior */
+      /*  max-height: none; /* Eliminar la altura máxima para que sea variable */
+      /*  position: relative; /* Cambiar la posición a relativa para que siga el flujo del documento */
+      /*  margin-bottom: 100%; /* Centrar horizontalmente y agregar margen inferior */
+      margin-top: 50px; /* Centrar horizontalmente y agregar margen inferior */
     }
     h1{
         color: black;
@@ -395,7 +396,7 @@ h1{
         bottom: 40vmin;
     }
     .audio{
-        margin-bottom: 15%;
+        margin-top:80%;
     }
 }
 
