@@ -363,7 +363,7 @@ p{
     max-width: 100%;
     position: absolute;
    /* margin-bottom: 5%;*/
-    margin-top: 40%;
+    margin-top: 30%;
     background-color: #fff; /* Color del fondo de la carta */
     border-radius: 10px; /* Bordes redondeados para simular una carta */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
@@ -399,7 +399,7 @@ h1{
         bottom: 40vmin;
     }
     .audio{
-        margin-top: 170%;
+        margin-top: 150%;
     }
 }
 
