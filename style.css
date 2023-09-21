@@ -344,7 +344,10 @@ p{
     max-height: 70%;
     max-width: 100%;
     position: absolute;
+    margin-top: 1%;
     margin-bottom: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
    /* margin-left: -60%;*/
     background-color: #fff; /* Color del fondo de la carta */
     border-radius: 10px; /* Bordes redondeados para simular una carta */
@@ -360,8 +363,8 @@ p{
     max-height: 70%;
     max-width: 100%;
     position: absolute;
-    margin-bottom: 5%;
-    /*margin-left: -70%;*/
+   /* margin-bottom: 5%;*/
+    margin-top: 50%;
     background-color: #fff; /* Color del fondo de la carta */
     border-radius: 10px; /* Bordes redondeados para simular una carta */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
@@ -380,6 +383,7 @@ h1{
 
 @media (max-width: 758px) {
     .carta {
+        margin: 30px;
         max-width: 100%; /* Cambiar el ancho máximo para que ocupe todo el ancho */
       /*  max-height: none; /* Eliminar la altura máxima para que sea variable */
       /*  position: relative; /* Cambiar la posición a relativa para que siga el flujo del documento */
@@ -393,10 +397,10 @@ h1{
         text-align: justify;
     }
     .flower_wrapper{
-        bottom: 40vmin;
+        bottom: 60vmin;
     }
     .audio{
-        margin-top:80%;
+        margin-top: 160%;
     }
 }
 
